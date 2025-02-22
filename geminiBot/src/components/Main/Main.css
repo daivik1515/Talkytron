@@ -1,0 +1,128 @@
+.Main
+{
+    width: 100%;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.avatar
+{
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.container
+{
+    max-width: 900px;
+    margin: auto;
+}
+.greet
+{
+    margin: 50px 0px;
+    font-size: 70px;
+    background: -webkit-linear-gradient(#00ffdd, #0dcaf0);
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(65, 63, 63);
+}
+.subintro
+{
+   font-size: 30px;
+   font-weight: 400;
+   color: rgb(81, 81, 81);
+}
+.cards
+{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+.card
+{
+    width: 20%;
+    min-width: 200px;
+    font-size: 15px;
+    height: 150px;
+    background-color: rgba(208, 211, 213, 0.2);
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 30px;
+}
+.card .menu1
+{
+    position: absolute;
+}
+.card:hover
+{
+    background-color: black;
+    color: white;
+}
+.mainBottom
+{
+    width: 100%;
+    max-width: 900px;
+    padding: 0px 20px;
+    margin: auto;
+}
+.search
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.search input
+{
+    border:none;
+    background-color: rgba(211, 211, 211, 0.473);
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+
+}
+.search .menu1
+{
+    font-size: 30px;
+    cursor: pointer;
+}
+.result
+{
+    display: flex;
+    flex-direction: column;
+}
+.resultTitle
+{
+    display: flex;
+}
+.resultTitle img
+{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+.resultData
+{
+    display: flex;
+    margin-top: 20px;
+}
+.resultData p
+{
+    margin-left: 30px;
+    line-height: 25px;
+    max-height: 60vh;
+    overflow: scroll;
+}
+.resultData .menu1
+{
+    font-size: 30px;
+}
+.loader img
+{
+    width: 30px;
+    margin-left: 40px;
+}
