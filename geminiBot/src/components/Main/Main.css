@@ -17,7 +17,9 @@
 .container
 {
     max-width: 900px;
-    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+
 }
 .greet
 {
@@ -51,6 +53,7 @@
     border-radius: 20px;
     cursor: pointer;
     padding: 30px;
+    margin-bottom: 10px;
 }
 .card .menu1
 {
